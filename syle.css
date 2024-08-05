@@ -1,0 +1,162 @@
+/* start nav */
+.navbar {
+    display: flex;
+    justify-content: space-around;
+}
+.logo {
+    display: flex;
+}
+.logo img {
+    margin-top: 18px;
+    background-color: #27245c;
+    border-radius: 50px;
+}
+h1 {
+    padding-top: 15px;
+    font-weight: bold;
+    text-align: center;
+    color: #27245c;
+}
+nav {
+
+    color: white;
+    padding-top: 15px;
+}
+ul {
+    text-align: center;
+    list-style: none
+}
+li {
+    list-style: none;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: inline-block;
+    padding: 15px;
+}
+a {
+    text-decoration: none;
+    color: gray;
+}
+nav :hover {
+    color: white;
+    background-color: #243166;
+}
+/* end nav */
+/* start carousel */
+.carousel-inner .carousel-item img {
+    height: 100vh;
+}
+.carousel-caption {
+    padding-bottom: 15rem;
+    margin-right: 30px;
+    text-align: left;
+}
+.carousel-caption h5 {
+    font-size: 50px;
+}
+.carousel-caption p {
+
+    font-size: 25px;
+}
+
+/* end carousel */
+/*  start section services */
+h2 {
+
+    text-align: center;
+    font-size: 50px;
+}
+.services {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+.card {
+    box-shadow: 10px 10px 10px gray;
+    border: 3px solid gray;
+}
+.card-body {
+    text-align: center;
+}
+.card-img-top:hover {
+    transform: scale(1.1);
+}
+/*  end section services */
+/* start my site */
+.mysite {
+    margin-top: 30px;
+    background-color: rgba(211, 211, 211, 0.329);
+    display: flex;
+    justify-content: space-around
+}
+.mysite img {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    box-shadow: 10px 10px 10px gray;
+    border: 3px solid gray;
+}
+ .content{
+    display: flex;
+    align-items: center;
+   flex-direction: column;
+   justify-content: center;
+ }
+ .content h2{
+padding-bottom: 35px;
+font-size: 60px;
+font-weight: bold;
+color: black;
+ }
+ .content p{
+color: gray;
+font-size: 20px;
+ }
+/* end my site */
+/* start footer */
+footer {
+    display: flex;
+    justify-content: space-between;
+}
+footer .logo {
+    display: flex;
+}
+.footer-container {
+    display: flex;
+    align-items: center
+}
+.footer-container p {
+    text-align: center;
+    margin-left:40px;
+    margin-top: 40px;
+}
+.footer-nav {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+.footer-nav :hover {
+    color: white;
+    background-color: #243166;
+}
+.footer-nav li{
+padding: 0;
+}
+h4 {
+    color: #243166;
+    font-size: 30px;
+    font-weight: bold;
+}
+.d-flex{
+margin-top: 50px ;
+margin-right: 50px;
+}
+.copyright{
+    width: 100%;
+background-color: #243166;
+color: white;
+font-size: 20px;
+text-align: center;
+
+}
+/* end footer */
